@@ -1,5 +1,8 @@
 # ✅ TODO CHECKLIST — MARKETING ONLINE NỘI THẤT
 
+**Ngân sách:** Lean Plan ~130 triệu / 6 tháng  
+**Marketing Kit chi tiết:** Xem [marketing-kit-checklist.md](./marketing-kit-checklist.md)
+
 ---
 
 ## 🔴 THÁNG 1: NỀN TẢNG (Budget: ~25-30 triệu)
@@ -8,7 +11,7 @@
 - [ ] Xác định tên thương hiệu online + slogan
 - [ ] Đặt domain website (.com hoặc .vn) — ~300K
 - [ ] Mua hosting 1 năm — ~1-2 triệu
-- [ ] Thuê freelancer thiết kế logo + brand cơ bản — ~3-5 triệu
+- [ ] Logo + brand cơ bản — ⏳ **sẽ được cung cấp sau** → đặt vào `assets/brand/logo/`
 - [ ] Mua micro cài áo (Boya M1) — ~200K
 - [ ] Mua tripod điện thoại — ~150-300K
 - [ ] Đăng ký Canva (free hoặc Pro 100K/tháng)
@@ -192,4 +195,4 @@
 
 ---
 
-*Checklist dựa trên Kế hoạch Lean Marketing — 05/03/2026*
+*Checklist dựa trên Kế hoạch Lean Marketing (~130 triệu) — Cập nhật 06/03/2026*
