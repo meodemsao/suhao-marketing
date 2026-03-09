@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Wrangler cache
+.wrangler/
+
+# Node
+node_modules/

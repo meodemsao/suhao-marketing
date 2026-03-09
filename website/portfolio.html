@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công trình tiêu biểu — SU HÀO Interior</title>
+    <meta name="description"
+        content="Khám phá 100+ công trình nội thất cao cấp đã hoàn thành — Biệt thự, Căn hộ, Văn phòng, Nhà phố.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="navbar-logo">SU HÀO <span>Interior</span></a>
+        <div class="navbar-links">
+            <a href="index.html">Trang chủ</a>
+            <a href="portfolio.html" class="active">Công trình</a>
+            <a href="services.html">Dịch vụ</a>
+            <a href="pricing.html">Đầu tư</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">Về chúng tôi</a>
+            <a href="contact.html" class="navbar-cta">Đặt lịch tư vấn</a>
+        </div>
+        <div class="mobile-toggle" id="mobileToggle" aria-label="Menu"><span></span><span></span><span></span></div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose" aria-label="Đóng">&times;</button>
+        <a href="index.html">Trang chủ</a><a href="portfolio.html">Công trình</a><a href="services.html">Dịch vụ</a>
+        <a href="pricing.html">Đầu tư</a><a href="blog.html">Blog</a><a href="about.html">Về chúng tôi</a><a
+            href="contact.html">Liên hệ</a>
+    </div>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <div class="breadcrumb"><a href="index.html">Trang chủ</a> <span>/</span> <span>Công trình</span></div>
+            <h1>Công trình tiêu biểu</h1>
+            <p class="text-muted">100% ảnh thực từ các dự án đã bàn giao — không stock photos.</p>
+        </div>
+    </div>
+
+    <!-- Filter + Grid -->
+    <section>
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn" data-filter="biet-thu">Biệt thự</button>
+                <button class="filter-btn" data-filter="can-ho">Căn hộ</button>
+                <button class="filter-btn" data-filter="van-phong">Văn phòng</button>
+                <button class="filter-btn" data-filter="nha-pho">Nhà phố</button>
+            </div>
+            <div class="grid grid-3">
+                <a href="project-detail.html" class="project-card project-grid-item" data-category="biet-thu">
+                    <img src="images/project-villa.png" alt="Villa Phú Mỹ Hưng" loading="lazy">
+                    <div class="project-card-overlay"><span class="project-card-tag">Modern Luxury</span>
+                        <h3 class="project-card-title">Villa Phú Mỹ Hưng</h3><span class="project-card-meta">350m² · Q7
+                            · 3.5 - 4 tỷ</span>
+                    </div>
+                </a>
+                <a href="project-detail.html" class="project-card project-grid-item" data-category="can-ho">
+                    <img src="images/project-penthouse.png" alt="Penthouse Thảo Điền" loading="lazy">
+                    <div class="project-card-overlay"><span class="project-card-tag">Scandinavian</span>
+                        <h3 class="project-card-title">Penthouse Thảo Điền</h3><span class="project-card-meta">120m² ·
+                            Q2 · 1.2 - 1.5 tỷ</span>
+                    </div>
+                </a>
+                <a href="project-detail.html" class="project-card project-grid-item" data-category="van-phong">
+                    <img src="images/project-office.png" alt="Văn phòng Tech Corp" loading="lazy">
+                    <div class="project-card-overlay"><span class="project-card-tag">Modern Minimal</span>
+                        <h3 class="project-card-title">Văn phòng Tech Corp</h3><span class="project-card-meta">200m² ·
+                            Q1 · 800tr - 1 tỷ</span>
+                    </div>
+                </a>
+                <a href="project-detail.html" class="project-card project-grid-item" data-category="nha-pho">
+                    <img src="images/project-indochine.png" alt="Nhà phố Indochine" loading="lazy">
+                    <div class="project-card-overlay"><span class="project-card-tag">Indochine</span>
+                        <h3 class="project-card-title">Nhà phố Indochine</h3><span class="project-card-meta">180m² · Q3
+                            · 1.8 - 2.2 tỷ</span>
+                    </div>
+                </a>
+                <a href="project-detail.html" class="project-card project-grid-item" data-category="can-ho">
+                    <img src="images/project-japandi.png" alt="Căn hộ Japandi Sunrise" loading="lazy">
+                    <div class="project-card-overlay"><span class="project-card-tag">Japandi</span>
+                        <h3 class="project-card-title">Căn hộ Japandi Sunrise</h3><span class="project-card-meta">85m² ·
+                            Q7 · 650 - 800tr</span>
+                    </div>
+                </a>
+                <a href="project-detail.html" class="project-card project-grid-item" data-category="biet-thu">
+                    <img src="images/hero.png" alt="Villa Riviera" loading="lazy">
+                    <div class="project-card-overlay"><span class="project-card-tag">Contemporary</span>
+                        <h3 class="project-card-title">Villa Riviera</h3><span class="project-card-meta">420m² · Q2 ·
+                            4.5 - 5 tỷ</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Bạn muốn công trình tương tự?</h2>
+            <p>Đặt lịch tư vấn miễn phí để bắt đầu hành trình.</p><a href="contact.html"
+                class="btn btn-primary btn-lg">Đặt lịch tư vấn</a>
+        </div>
+    </section>
+
+    <!-- Footer (same as index) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><span class="navbar-logo">SU HÀO <span>Interior</span></span>
+                    <p>Thiết kế & thi công nội thất cao cấp với xưởng sản xuất riêng.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Khám phá</h4>
+                    <ul class="footer-links">
+                        <li><a href="portfolio.html">Công trình</a></li>
+                        <li><a href="services.html">Dịch vụ</a></li>
+                        <li><a href="pricing.html">Bảng giá</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Công ty</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Liên hệ</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:0901234567">0901 234 567</a></li>
+                        <li><a href="mailto:hello@suhao.vn">hello@suhao.vn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>&copy; 2026 Su Hào Interior.</span><span>TP.HCM, Việt Nam</span></div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Lên đầu trang"><svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6" />
+        </svg></button>
+    <script src="main.js"></script>
+</body>
+
+</html>
